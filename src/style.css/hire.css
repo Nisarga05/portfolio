@@ -46,8 +46,14 @@
 .hire-name {
   font-size: 1.4rem;          /* bigger name text */
   margin-bottom: 18px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
+  .hire-name {
+  font-size: 1.4rem;          /* bigger name text */
+  margin-bottom: 18px;
+  color: #ffffff;
+  text-align: center;
+}
 }
 
 .hire-link {

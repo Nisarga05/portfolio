@@ -18,20 +18,15 @@ h1 {
 h3 {
   font-size: clamp(16px, 3vw, 20px);
   color: #ffffff;
-  font-weight: bold;
   text-align: left;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 1rem;
   line-height: clamp(1.4, 1.5vw, 1.8); 
+  font-weight: 400;
 }
 .recruiter-text {
-  background: rgba(35, 32, 32, 0.5);
-  padding: 1rem;
-  border-radius: 6px;
-  font-weight: 400;
-  margin-bottom: 1rem;   
-  line-height: 1.8;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: rgba(21, 19, 19, 0.575);
+  
 }
 
 .page {
@@ -130,7 +125,7 @@ h3 {
 
 .box1:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.5); /* Netflix red glow on hover */
+  box-shadow: 0 8px 20px #e5091480; /* Netflix red glow on hover */
   cursor: pointer;
 }
 
