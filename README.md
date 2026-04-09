@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netflix Portfolio
 
 A personal portfolio website inspired by Netflix's design, built with **React**, **Vite**, and **CSS**. Showcases projects, skills, and personal profile in a modern, responsive interface.
@@ -15,3 +16,6 @@ A personal portfolio website inspired by Netflix's design, built with **React**,
 - **State Management:** React Context API
 - **Version Control:** Git & GitHub
 - **Hosting:** Vercel
+=======
+# portfolio
+>>>>>>> 0731acadecc38d880791eafef49428e094aed24a
