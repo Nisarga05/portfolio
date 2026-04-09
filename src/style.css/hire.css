@@ -1,0 +1,76 @@
+.hire-container {
+  padding: 40px 20px;
+  background-color: #141414;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* vertically center */
+}
+
+.hire-title {
+  font-size: 2rem;           /* slightly bigger heading */
+  color: #e50914;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hire-box {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 30px 35px;        /* bigger padding for spacious look */
+  max-width: 400px;          /* bigger card width */
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(160, 16, 16, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hire-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(244, 0, 13, 0.6);
+}
+
+.hire-photo {
+  width: 140px;               /* bigger profile image */
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e50914;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 15px rgba(229, 9, 20, 0.6);
+}
+
+.hire-name {
+  font-size: 1.4rem;          /* bigger name text */
+  margin-bottom: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.hire-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #2c2c2c;
+  padding: 10px 14px;         /* slightly bigger buttons */
+  border-radius: 10px;
+  margin: 8px 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.hire-link:hover {
+  background: #e50914;
+  color: #fff;
+}
+
+.hire-icon {
+  width: 22px;                /* bigger icons */
+  height: 22px;
+}

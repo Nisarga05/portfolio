@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #141414;
+  overflow-x: hidden;      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;              
+  box-sizing: border-box;   
+}
+
+.splash-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;        
+}
+
+.splash-logo {
+  color: #e50914; 
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .splash-logo {
+    font-size: 6rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+  }
+}

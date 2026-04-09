@@ -1,0 +1,44 @@
+.browse-title {
+  color: white;
+  font-size: clamp(24px, 5vw, 38px); 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profiles-grid {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2rem); 
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: clamp(80px, 20vw, 120px);  /* responsive size */
+  height: clamp(80px, 20vw, 120px);
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid transparent;
+  transition: border 0.2s ease, transform 0.2s ease;
+}
+
+.profile-img:hover {
+  border: 3px solid #fff;
+}
+
+.profile-name {
+  margin-top: 10px;
+  font-size: clamp(0.8rem, 2.5vw, 1rem); /* responsive text */
+  color: #aaa;
+  text-align: center;
+}
+
+.profile-box:hover .profile-name {
+  color: #fff;
+}
