@@ -30,7 +30,7 @@
 
 .hire-box:hover {
   transform: scale(1.03);
-  box-shadow: 0 12px 25px rgba(244, 0, 13, 0.6);
+  box-shadow: 0 12px 25px rgba(139, 20, 26, 0.6);
 }
 
 .hire-photo {
@@ -38,18 +38,18 @@
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #e50914;
+  border: 3px solid #902930ba;
   margin-bottom: 20px;
   box-shadow: 0 6px 15px rgba(229, 9, 20, 0.6);
 }
 
 .hire-name {
-  font-size: 1.4rem;          /* bigger name text */
+  font-size: 1.4rem;          
   margin-bottom: 18px;
   color: #ffffff;
   text-align: center;
   .hire-name {
-  font-size: 1.4rem;          /* bigger name text */
+  font-size: 1.4rem;         
   margin-bottom: 18px;
   color: #ffffff;
   text-align: center;
@@ -62,7 +62,7 @@
   justify-content: center;
   gap: 10px;
   background: #2c2c2c;
-  padding: 10px 14px;         /* slightly bigger buttons */
+  padding: 10px 14px;        
   border-radius: 10px;
   margin: 8px 0;
   text-decoration: none;
@@ -72,11 +72,11 @@
 }
 
 .hire-link:hover {
-  background: #e50914;
+  background: #7e1419dd;
   color: #fff;
 }
 
 .hire-icon {
-  width: 22px;                /* bigger icons */
+  width: 22px;              
   height: 22px;
 }

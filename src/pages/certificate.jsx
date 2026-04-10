@@ -7,7 +7,7 @@ const certificationsData = [
     title: "Electric Vehicle technology",
     issuer: "Alphabets Digital Labs Pvt. Ltd",
     date: "October 2025",
-    image: "/EV.jpg",
+    link: "/Ev.jpg",
   },
   {
     id: 2,
